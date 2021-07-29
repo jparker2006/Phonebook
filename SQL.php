@@ -48,7 +48,7 @@ function QueryDB ($sSQL) {
 function ConnectToDB ($sConnectToDB) {
     $dbhost = 'localhost';
     $dbuser = 'phonebook_site';
-    $dbpass = 'j60ixT';
+    $dbpass = 'xxxxx';
     $db = "phonebook";
 
     $dbconnect = new mysqli($dbhost, $dbuser, $dbpass, $db);
