@@ -34,7 +34,7 @@ echo $sFeedback;
 function QueryDB ($sSQL) {
     $dbhost = 'localhost';
     $dbuser = 'phonebook_site';
-    $dbpass = 'j60ixT';
+    $dbpass = 'xxxxx';
     $db = "phonebook";
 
     $dbconnect = new mysqli($dbhost, $dbuser, $dbpass, $db);
